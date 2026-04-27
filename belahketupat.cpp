@@ -84,3 +84,5 @@ int main() {
     cout << "\nTotal Keliling (Friend Function): "
          << kelilingBelahKetupat(bk, ll) << endl;
 
+    return 0;
+}
