@@ -64,3 +64,9 @@ public:
 
     friend double kelilingBelahKetupat(BelahKetupat b, LayangLayang l);
 };
+
+double kelilingBelahKetupat(BelahKetupat b, LayangLayang l) {
+    return b.keliling() + l.keliling();
+}
+
+int main() {
