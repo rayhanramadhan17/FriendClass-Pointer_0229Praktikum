@@ -71,3 +71,5 @@ double kelilingBelahKetupat(BelahKetupat b, LayangLayang l) {
 
 int main() {
     LayangLayang ll;
+    BelahKetupat bk;
+
