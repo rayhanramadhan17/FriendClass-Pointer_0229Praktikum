@@ -23,3 +23,38 @@ public:
         return 0.5 * d1 * d2;
     }
 
+    double keliling() {
+        return 2 * (s1 + s2);
+    }
+
+    void output() {
+        cout << "Luas Layang-Layang: " << luas() << endl;
+        cout << "Keliling Layang-Layang: " << keliling() << endl;
+    }
+
+    friend double kelilingBelahKetupat(BelahKetupat b, LayangLayang l);
+};
+
+class BelahKetupat {
+private:
+    double d1, d2, s;
+
+public:
+    void input() {
+        cout << "Input diagonal 1 Belah Ketupat: ";
+        cin >> d1;
+        cout << "Input diagonal 2 Belah Ketupat: ";
+        cin >> d2;
+        cout << "Input sisi Belah Ketupat: ";
+        cin >> s;
+    }
+
+    double luas() {
+        return 0.5 * d1 * d2;
+    }
+
+    double keliling() {
+        return 4 * s;
+    }
+
+ 
