@@ -73,3 +73,7 @@ int main() {
     LayangLayang ll;
     BelahKetupat bk;
 
+    cout << "=== Layang-Layang ===" << endl;
+    ll.input();
+    ll.output();
+
