@@ -77,3 +77,7 @@ int main() {
     ll.input();
     ll.output();
 
+    cout << "\n=== Belah Ketupat ===" << endl;
+    bk.input();
+    bk.output();
+
